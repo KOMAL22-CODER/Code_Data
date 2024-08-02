@@ -1,0 +1,10 @@
+.container-fluid{
+  border: 2px solid red ;
+}
+
+.box{
+ border: 2px solid blue;
+}
+img{
+  width: 100%;
+}

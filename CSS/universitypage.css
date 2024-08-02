@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin:50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+  background-color: rgb(3, 3, 71);
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+ul li a:hover{
+  color: orange;
+}
+img{
+  width: 10%;
+  height: 70px;
+
+}
+input{
+  width: 15%;
+  height: 40px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 30px;
+  text-indent: 10%;
+}
+.hero{
+  background-image: linear-gradient(to left,rgba(32,18,18,0.5),rgba(101,101,101,0.7)),url("../Images/university.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.content{
+  color: white;
+  position: absolute;
+  /* top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  width: 50%;
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: 50px;
+
+}
+
+.content h1{
+  font-size: 60px;
+}
+
+.content h3{
+  text-align: center;
+  font-size: 40px;
+  color: orange;
+}
+
+.form{
+   width: 28%; 
+   position: absolute;
+   display: flex;
+   /* flex-direction: column; */
+   left: 70%;
+   border: 2px solid black;
+   background-color: rgb(3, 3, 71);
+   height: 400px;
+   padding-top: 10px; 
+} 
+
+h2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.div{
+  background-color: rgb(3, 3, 71);
+  height: 250px;
+  width: 30%;
+  border-radius: 25px;
+  color: white;
+  margin-top: 20px;
+  padding-top: 25px;
+}
+
+button{
+  background-color: orange;
+  padding: 10px 15px;
+  border-radius: 5px solid black;
+}
+
+.div img{
+  height: 120px;
+  width: 120px;
+}
+
+.form input{
+  width: 80%;
+}
+
+h2,label{
+  color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(6, 6, 119);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.box {
+  width: 33.3%;
+  margin-left: 80px;
+}
+
+p {
+  font-size: 16px;
+}
+
+span {
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+h1,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+i {
+  padding: 5px;
+}
+
+.social {
+  text-align: center;
+}

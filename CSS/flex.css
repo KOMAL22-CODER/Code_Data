@@ -1,0 +1,30 @@
+.box{
+  height:200px;
+  width:200px;
+  border: 2px solid black;
+  }
+
+  #red{
+   background-color: brown;
+  /* align-self: end*/
+  }
+  #green{
+   background-color:aqua;
+  /* align-self: center;*/
+  }
+  #blue{
+   background-color:blueviolet;
+   /*align-self:start*/
+  }
+
+  #container{
+    display:flex;
+    justify-content:space-between;
+    height: 100vh;
+    width:100%;
+    border: 2px solid blue;
+    align-items: start;
+    /*space between, space evenly,space around, start, end , cemter*/
+    flex-direction: row;
+  }
+

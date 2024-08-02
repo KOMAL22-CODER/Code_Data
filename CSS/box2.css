@@ -1,0 +1,19 @@
+img{
+  border-radius: 50%;
+  }
+
+  .box{
+   height: 300px;
+   width: 300px;
+   border-radius: 20px;
+    background: linear-gradient(rgb(225,222,222) 60%,rgb(163,218,255));
+  }
+ 
+  .container{
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }

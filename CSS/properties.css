@@ -1,0 +1,11 @@
+ p{
+  font-weight: 900;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 200px;
+  word-spacing: 50px;
+  letter-spacing: 50px;
+  line-height: 10px;
+ }
